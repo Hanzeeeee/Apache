@@ -1,0 +1,1 @@
+<!DOCTYPE html> <html> <head> <title>Clinic System</title> <link rel="stylesheet" href="style.css"> </head> <body> <div class="container"> <h1>Clinic Consultations Logging System</h1> <a href="doctors.php">Doctors Management</a> <a href="patients.php">Patients Management</a> <a href="consultations.php">Consultations</a> <a href="inquiry.php">Inquiry</a> </div> </body> </html>

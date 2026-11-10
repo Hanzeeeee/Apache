@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #333333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #222222;
+    margin-top: 0;
+}
+
+h2 {
+    border-bottom: 2px solid #333333;
+    padding-bottom: 6px;
+    color: #222222;
+}
+
+h3 {
+    background-color: #e0e0e0;
+    padding: 6px 10px;
+    margin-top: 20px;
+    border: 1px solid #333333;
+}
+
+.navbar {
+    background-color: #333333;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.prompt-box {
+    border: 2px solid #333333;
+    background-color: #fff8dc;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #333333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #333333;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #e0e0e0;
+}
+
+.menu-table td {
+    text-align: left;
+}
+
+.section-row td {
+    background-color: #dddddd;
+    font-weight: bold;
+    text-align: left;
+}
+
+form {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form select {
+    width: 100%;
+    max-width: 400px;
+    padding: 6px;
+    box-sizing: border-box;
+    border: 1px solid #999999;
+    font-size: 14px;
+}
+
+form button, .btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #333333;
+    background-color: #e0e0e0;
+    cursor: pointer;
+}
+
+form button:hover, .btn:hover {
+    background-color: #cccccc;
+}
+
+.candidate-option {
+    display: block;
+    padding: 6px;
+    font-size: 15px;
+}
+
+.action-link {
+    margin: 0 3px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #0033cc;
+}
+
+.deactivate-link {
+    color: #cc0000;
+}
+
+.activate-link {
+    color: #007700;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.status-active {
+    color: #007700;
+    font-weight: bold;
+}
+
+.status-inactive {
+    color: #cc0000;
+    font-weight: bold;
+}

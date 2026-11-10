@@ -1,0 +1,67 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+}
+.header {
+    background: #1e66c1;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header h1 { margin: 0; font-size: 20px; }
+.header a { color: white; margin-left: 15px; text-decoration: none; }
+.header a:hover { text-decoration: underline; }
+.container {
+    width: 900px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+h2 { margin-top: 0; }
+label { display: block; margin-top: 10px; font-size: 14px; }
+input[type=text], input[type=password], input[type=number], input[type=email] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #bbb;
+    box-sizing: border-box;
+}
+button, .btn {
+    background: #1e66c1;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    margin-top: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+}
+.btn-edit { background: #2e8b57; }
+.btn-delete { background: #c0392b; }
+.btn-gray { background: #777; }
+.search-box { margin-top: 20px; }
+.search-box input[type=text] { width: 250px; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { border: 1px solid #ccc; padding: 8px; text-align: left; font-size: 14px; }
+th { background: #e8eef7; }
+.login-card {
+    width: 320px;
+    margin: 100px auto;
+    background: white;
+    padding: 25px;
+    border: 1px solid #ddd;
+}
+.login-card button { width: 100%; }
+.error { color: #c0392b; }
+.confirm-box {
+    background: #fdecea;
+    border: 1px solid #c0392b;
+    padding: 12px;
+    margin-bottom: 15px;
+}
