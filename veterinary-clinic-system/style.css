@@ -1,0 +1,56 @@
+body{
+    font-family: Arial;
+    background:#f2f2f2;
+    margin:20px;
+}
+.container{
+    width:90%;
+    margin:auto;
+    background:white;
+    padding:20px;
+}
+h1,h2{
+    text-align:center;
+}
+a{
+    text-decoration:none;
+}
+.menu a{
+    padding:10px;
+    background:darkblue;
+    color:white;
+    margin:5px;
+    display:inline-block;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+}
+table, th, td{
+    border:1px solid black;
+}
+th, td{
+    padding:10px;
+}
+input, select, textarea{
+    width:100%;
+    padding:8px;
+    margin-bottom:10px;
+}
+button{
+    padding:10px 20px;
+    background:green;
+    color:white;
+    border:none;
+}
+.edit{
+    background:orange;
+    color:white;
+    padding:5px 10px;
+}
+.delete{
+    background:red;
+    color:white;
+    padding:5px 10px;
+}
